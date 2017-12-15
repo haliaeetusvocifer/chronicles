@@ -9,7 +9,7 @@ Colors:
 	Dark      : #FCFCFF
 	Grey 		  : #F4F4F4 #FAFAFA #EEE
 
-Fonts: Montserrat Varela Round
+Fonts: "Helvetica Neue",Helvetica,Arial,sans-serif
 
 Table OF Contents
 ------------------------------------
@@ -45,7 +45,7 @@ Table OF Contents
 /* -- typography -- */
 
 body {
-    font-family: 'Varela Round', sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     line-height: 1.6;
     overflow-x: hidden;
@@ -53,11 +53,11 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: normal;
     margin-top: 0px;
     margin-bottom: 20px;
-    color: #10161A;
+    color: #059da2;
 }
 
 h1 {
@@ -65,11 +65,12 @@ h1 {
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 30px;
 }
 
 h3 {
-    font-size: 21px;
+    font-size: 18px;
+    color: #000000 !important;
 }
 
 h4 {
@@ -116,6 +117,15 @@ ul, ol {
     margin: 0;
     padding: 0;
     list-style: none
+    padding-bottom: 20px !important;
+}
+
+.my-button{
+    margin-top: 20px !important;
+    width: 60% !important;
+    margin-left: 70px !important;
+    background: #b9d507 !important;
+    border-color: #b9d507 !important;
 }
 
 /* -- section  -- */
@@ -125,8 +135,8 @@ ul, ol {
 }
 
 .md-padding {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .sm-padding {
@@ -138,7 +148,7 @@ ul, ol {
 /* --  background section  -- */
 
 .bg-grey {
-    background-color: #FAFAFA;
+    /*background-color: #FAFAFA;*/
     border-top: 1px solid #EEE;
     border-bottom: 1px solid #EEE;
 }
@@ -571,7 +581,68 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 
 
+/*------------------------------------*\
+    About
+\*------------------------------------*/
 
+.about {
+    position: relative;
+    text-align: center;
+    padding: 40px 20px;
+    border: 1px solid #EEE;
+    margin: 15px 0px;
+    border-radius: 20px;
+}
+
+.about i {
+    font-size: 36px;
+    color: #d42f11;
+    margin-bottom: 20px;
+}
+
+.about:after {
+    content: "";
+    background-color: #b9d608;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 0%;
+    z-index: -1;
+    -webkit-transition: 0.2s width;
+    transition: 0.2s width;
+    border-radius: 20px;
+}
+
+.about:hover:after {
+    width: 100%;
+}
+
+.about h3 {
+    -webkit-transition: 0.2s color;
+    transition: 0.2s color;
+}
+
+.about:hover h3 {
+    color: #fff;
+}
+
+
+/*------------------------------------*\
+    Why choose us
+\*------------------------------------*/
+
+.feature {
+    margin: 15px 0px;
+}
+.feature i {
+    float: left;
+    padding: 5px;
+    border-radius: 50%;
+    color: #6195FF;
+    border: 1px solid #6195FF;
+    margin-right: 5px;
+}
 
 
 

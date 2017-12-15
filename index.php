@@ -86,51 +86,172 @@
 	<!-- /Header -->
 
   <!-- Slider Images -->
-
   <div id="carousel-example" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example" data-slide-to="1"></li>
-    <li data-target="#carousel-example" data-slide-to="2"></li>
-  </ol>
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example" data-slide-to="1"></li>
+      <li data-target="#carousel-example" data-slide-to="2"></li>
+    </ol>
 
-  <div class="carousel-inner">
-    <div class="item active">
-      <a href="#"><img src="inc/img/use1.png" /></a>
-      <!-- <div class="carousel-caption">
-        <h3>Meow</h3>
-        <p>Just Kitten Around</p>
-      </div> -->
-    </div>
-    <div class="item">
-      <a href="#"><img src="inc/img/use2.png" /></a>
-      <!-- <div class="carousel-caption">
-        <h3>Meow</h3>
-        <p>Just Kitten Around</p>
-      </div> -->
-    </div>
-    <div class="item">
-      <a href="#"><img src="inc/img/use3.png" /></a>
-      <!-- <div class="carousel-caption">
-        <h3>Meow</h3>
-        <p>Just Kitten Around</p>
-      </div> -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <a href="#"><img src="inc/img/use1.png" /></a>
+      </div>
+      <div class="item">
+        <a href="#"><img src="inc/img/use2.png" /></a>
+      </div>
+      <div class="item">
+        <a href="#"><img src="inc/img/use3.png" /></a>
+      </div>
     </div>
   </div>
-
-  <!-- <a class="left carousel-control" href="#carousel-example" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-  </a> -->
-</div>
-
-
-
-
   <!-- /slider images -->
 
+  <!-- About -->
+  <div id="about" class="section md-padding">
+
+    <!-- Container -->
+    <div class="container">
+
+      <!-- Row -->
+      <div class="row">
+
+        <!-- Section header -->
+        <div class="section-header text-center">
+          <h2 class="title">About Diamond Bank Christmas Chronicle Game</h2>
+        </div>
+        <!-- /Section header -->
+
+      <!-- about play-->
+        <div class="col-md-3">
+          <div class="about">
+            <i class="fa fa-play"></i>
+            <h3>Play Puzzle</h3>
+            <!-- <p>Lorem Ipsum</p> -->
+          </div>
+        </div>
+      <!-- /about play-->
+
+      <!-- about win-->
+        <div class="col-md-3">
+          <div class="about">
+            <i class="fa fa-play"></i>
+            <h3>Win Puzzle</h3>
+           <!--  <p>Lorem Ipsum</p> -->
+          </div>
+        </div>
+      <!-- /about win-->
+
+      <!-- about get voucher-->
+        <div class="col-md-3">
+          <div class="about">
+            <i class="fa fa-diamond"></i>
+            <h3>Get Voucher</h3>
+            <!-- <p>Lorem Ipsum</p> -->
+          </div>
+        </div>
+      <!-- /about get voucher-->
+
+      <!-- about  use voucher-->
+        <div class="col-md-3">
+          <div class="about">
+            <i class="fa fa-play"></i>
+            <h3>Use Voucher</h3>
+          <!--   <p>Lorem Ipsum</p> -->
+          </div>
+        </div>
+      <!-- /about  use voucher-->
+
+      </div>
+      <!-- /Row -->
+
+    </div>
+    <!-- /Container -->
+
+  </div>
+  <!-- /About -->
+
+
+  <!-- Stores-->
+  <div id="features" class="section md-padding bg-grey">
+
+    <!-- Container -->
+    <div class="container">
+
+      <!-- Row -->
+      <div class="row">
+
+        <!-- list of store-->
+        <div class="col-md-6">
+          <div class="section-header">
+            <h2 class="title">Stores to use Gemzone Voucher</h2>
+          </div>
+          <p>The following are stores you can use the voucher credited to your account</p>
+          <div class="feature">
+            <i class="fa fa-check"></i>
+            <p>Spar</p>
+          </div>
+          <div class="feature">
+            <i class="fa fa-check"></i>
+            <p>Konga</p>
+          </div>
+          <div class="feature">
+            <i class="fa fa-check"></i>
+            <p>Fouani Shopping Center.</p>
+          </div>
+        </div>
+        <!-- /list of store-->
+
+     <!-- gemzon store image -->
+        <div class="col-md-6">
+          <img class="img-responsive" src="inc/img/storeimage.png" alt="">
+        </div>
+        <!-- /gemzone store image -->
+
+      </div>
+      <!-- /Row -->
+
+    </div>
+    <!-- /Container -->
+
+  </div>
+  <!-- /Stores -->
+
+  <!-- Play-->
+  <div id="features" class="section md-padding bg-grey">
+
+    <!-- Container -->
+    <div class="container">
+
+      <!-- Row -->
+      <div class="row">
+        <div class="col-md-3"></div>
+
+        <!-- How to Play-->
+        <div class="col-md-6">
+          <div class="section-header text-center">
+            <h2 class="title">How to Play</h2>
+          </div>
+        <!-- /Section header -->
+          <!-- <p>The following are stores you can use the voucher credited to your account</p> -->
+          <div class="feature">
+            <ul>
+              <li>Click the play button</li>
+              <li>Re-arrange the event images is the right order they were orgainized</li>
+              <li>Fill the form to get your Gemzone Voucher</li></ul>
+              <button type="button" class="btn btn-primary btn-lg btn-block my-button" onclick="location.href = 'puzzle.php';">Play Here</button>
+          </div>
+        </div>
+        <!-- /how to play-->
+        <div class="col-md-3"></div>
+      </div>
+      <!-- /Row -->
+
+    </div>
+    <!-- /Container -->
+
+  </div>
+  <!-- /Play -->
 
 
 
