@@ -94,6 +94,67 @@
 
       <!-- Row -->
       <div class="row">
+        <div class="col-md-3"></div>
+
+        <div class="col-md-6">
+
+          <h2>Thank you</h2>
+
+          <form class="form-horizontal" action="#">
+
+            <div class="form-group">
+              <label class="control-label col-sm-4" for="Surname">Surname</label>
+              <div class="col-sm-8">
+                <input type="text" class="form-control" id="surname" placeholder="Surname" name="surname">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-4" for="Fname">First Name</label>
+              <div class="col-sm-8">
+                <input type="text" class="form-control" id="fname" placeholder="First Name" name="fname">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-4" for="Lname">Last Name</label>
+              <div class="col-sm-8">
+                <input type="text" class="form-control" id="lname" placeholder="Last Name" name="lname">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-4" for="email">Email:</label>
+              <div class="col-sm-8">
+                <input type="email" class="form-control" id="email" placeholder="johndoe@example.com" name="email">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-4" for="pnumber">Phone Number</label>
+              <div class="col-sm-8">
+                <input type="text" class="form-control" id="pnumber" placeholder="08022222222" name="pnumber">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-4" for="acnumber">Diamond Account Number</label>
+              <div class="col-sm-8">
+                <input type="text" class="form-control" id="acnumber" placeholder="08022222222" name="acnumber">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-4" for="address">Residential Address</label>
+              <div class="col-sm-8">
+                <!-- <input type="text" class="form-control" id="address" placeholder="Residential Address" name="address"> -->
+                <textarea class="form-control" rows="5" id="address"></textarea>
+              </div>
+            </div>
+            <div class="form-group">        
+              <div class="col-sm-offset-4 col-sm-8">
+                <button type="submit" class="btn btn-default">Submit</button>
+              </div>
+            </div>
+          </form>
+
+        </div>
+
+        <div class="col-md-3"></div>
 
         
 

@@ -97,7 +97,9 @@
       <!-- Row -->
       <div class="row">
 
-        <div class="col-md-6"></div>
+        <div class="col-md-3"></div>
+
+        <div class="col-md-6">
 
         <section id="DiamondPuzzle">
           <div id="DiamondPuzzleInnerleft" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)">
@@ -116,7 +118,9 @@
             <div class="DiamondFinalPuzzle" id="five" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
             <div class="DiamondFinalPuzzle" id="six" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
           </div>  
-        </section
+        </section>
+
+        </div>
 
 
         <div class="col-md-3"></div> 
