@@ -28,6 +28,9 @@
 	<!-- Custom stlylesheet -->
 	<link type="text/css" rel="stylesheet" href="inc/css/style.css" />
 
+  <!-- Puzzle stlylesheet -->
+  <link type="text/css" rel="stylesheet" href="inc/css/puzzle.css" />
+
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
@@ -36,7 +39,7 @@
 	<![endif]-->
 </head>
 
-<body>
+<body onload="checkBrowser();">
 
 	<!-- Header -->
 	<header>
@@ -85,6 +88,47 @@
 	</header>
 	<!-- /Header -->
 
+  <!-- About -->
+  <div id="about" class="section md-padding">
+
+    <!-- Container -->
+    <div class="container">
+
+      <!-- Row -->
+      <div class="row">
+
+        <div class="col-md-6"></div>
+
+        <section id="DiamondPuzzle">
+          <div id="DiamondPuzzleInnerleft" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)">
+            <img id="puzzle1" src="inc/img/1.png" alt="1" draggable="true" ondragstart="start(event)" ondragend="end(event)">
+            <img id="puzzle2" src="inc/img/2.png" alt="2" draggable="true" ondragstart="start(event)" ondragend="end(event)">
+            <img id="puzzle3" src="inc/img/3.png" alt="3" draggable="true" ondragstart="start(event)" ondragend="end(event)">
+            <img id="puzzle4" src="inc/img/4.png" alt="4" draggable="true" ondragstart="start(event)" ondragend="end(event)">
+            <img id="puzzle5" src="inc/img/5.png" alt="5" draggable="true" ondragstart="start(event)" ondragend="end(event)">
+            <img id="puzzle6" src="inc/img/6.png" alt="6" draggable="true" ondragstart="start(event)" ondragend="end(event)">
+          </div>
+          <div id="DiamondPuzzleInnerRight">
+            <div class="DiamondFinalPuzzle" id="one" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+            <div class="DiamondFinalPuzzle" id="two" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+            <div class="DiamondFinalPuzzle" id="three" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+            <div class="DiamondFinalPuzzle" id="four" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+            <div class="DiamondFinalPuzzle" id="five" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+            <div class="DiamondFinalPuzzle" id="six" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+          </div>  
+        </section
+
+
+        <div class="col-md-3"></div> 
+      </div>
+      <!-- /Row -->
+
+    </div>
+    <!-- /Container -->
+
+  </div>
+  <!-- /About -->
+
   
 
 
@@ -109,6 +153,8 @@
 	<script type="text/javascript" src="inc/js/owl.carousel.min.js"></script>
 	<script type="text/javascript" src="inc/js/jquery.magnific-popup.js"></script>
 	<script type="text/javascript" src="inc/js/main.js"></script>
+  <!-- Puzzle JS-->
+  <script src="inc/js/puzzle.js"></script>
 
 </body>
 
